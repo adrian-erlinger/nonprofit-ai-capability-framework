@@ -14,6 +14,8 @@ The framework helps nonprofits and member-based associations move AI from indivi
 
 It is intended to support one defined team and one defined workflow at a time, so adoption work can be concrete, owned, and testable.
 
+The working reasoning structure used to apply these principles is documented in the [Decision Model](decision-model.md).
+
 ## Audience And Market
 
 Confirmed decision: the initial scope includes nonprofits and member-based associations within the broader dot org market.

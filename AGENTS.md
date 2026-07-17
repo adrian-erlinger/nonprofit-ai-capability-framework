@@ -25,7 +25,7 @@ The project is in Phase 0: product foundation, repository design, and early vali
 
 ## Documentation Norms
 
-Use `docs/product-charter.md` as the source of truth for product intent, governing decisions, hypotheses, open questions, and deferred work.
+Use `docs/product-charter.md` as the source of truth for product intent, governing decisions, hypotheses, open questions, and deferred work. Use `docs/decision-model.md` as the working source for the reasoning domains that connect organizational concerns to responsible recommendations. Preserve the distinction between the conversation model, reasoning model, and delivery model.
 
 Substantive product claims and decisions should be identifiable as one of:
 

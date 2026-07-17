@@ -17,6 +17,7 @@ The framework may support a future paid DSL product with a guided digital experi
 ## Current Contents
 
 - [Product charter](docs/product-charter.md): product intent, scope decisions, hypotheses, open questions, and deferred work.
+- [Decision model](docs/decision-model.md): working reasoning domains for moving from an organizational concern to a responsible recommendation about whether and how AI may help.
 - [Plans](PLANS.md): forward-looking planning for near-term work.
 - [Agent guidance](AGENTS.md): guardrails for AI agents and maintainers working in this repository.
 

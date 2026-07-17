@@ -8,7 +8,9 @@ Durable product decisions belong in [docs/product-charter.md](docs/product-chart
 
 Phase 0 focuses on product foundation, repository design, framework logic, and early validation through interviews and bounded prototype testing.
 
-The first repository milestone is a small documentation-only foundation:
+The initial repository foundation and working decision model are now in place. The next Phase 0 milestone is to define and test the first beta-user experience.
+
+The first repository milestone established a small documentation-only foundation:
 
 - `README.md`
 - `AGENTS.md`
@@ -17,6 +19,7 @@ The first repository milestone is a small documentation-only foundation:
 
 ## Near-Term Work
 
+- Define the first beta-user experience for turning an organizational concern into a prioritized, bounded recommendation about what to do next.
 - Conduct user interviews with nonprofit and association leaders, operators, and practitioners.
 - Test whether the framework's one-team, one-workflow focus matches real adoption needs.
 - Explore whether the eight workflow categories are useful as an organizing structure.
