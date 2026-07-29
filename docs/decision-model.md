@@ -1,8 +1,8 @@
 # Decision Model
 
-Status: Phase 0 working hypothesis. This document describes the reasoning model DSL uses to move from an organizational concern to a responsible recommendation about whether and how AI may help.
+Status: Framework v0.1 reasoning model. This document describes the reasoning model DSL uses to move from an organizational concern to a responsible recommendation about whether and how AI may help.
 
-This is not a fixed eleven-step user journey, product screen flow, maturity model, scoring system, rubric, or assessment instrument. It is a provisional model for reasoning through organizational change decisions where AI may or may not be relevant.
+This is not a fixed eleven-step user journey, product screen flow, maturity model, scoring system, rubric, or assessment instrument. It is the current reasoning model for organizational change decisions where AI may or may not be relevant.
 
 ## Purpose
 
@@ -10,7 +10,7 @@ The decision model explains how DSL reasons from a real organizational concern t
 
 The framework should begin with the organization's actual concern, not an assumed AI use case. The relevant objective may be organizational, departmental, programmatic, or workflow-specific. AI is one possible intervention, not the default.
 
-This document complements the product charter. The charter records governing product decisions and hypotheses; this document describes the working reasoning structure that may be used across consulting, training, workshops, prototypes, and future product experiences.
+This document complements the product charter. The charter records governing product decisions and hypotheses; this document describes the reasoning structure used across consulting, training, workshops, Decision Conversation materials, hosted application delivery, and other formats.
 
 The central question is: What organizational outcome are you trying to improve, and where can AI responsibly help, if at all?
 
@@ -19,7 +19,7 @@ The central question is: What organizational outcome are you trying to improve, 
 The framework needs to distinguish three related but different models:
 
 - Conversation model: how different users enter the process.
-- Reasoning model: the common decision domains the framework must eventually address.
+- Reasoning model: the common decision domains the framework must address.
 - Delivery model: how the methodology may be delivered through consulting, workshops, training, guided software, an AI-assisted interface, or other formats.
 
 The reasoning model should provide a common structure across delivery formats while remaining open to revision based on evidence.
@@ -87,14 +87,14 @@ Defines a limited cycle for testing and learning from the recommended interventi
 
 Clarifies how learning, ownership, evidence, governance, and workflow changes will persist beyond the initial effort. This domain helps prevent useful experimentation from disappearing when individuals move on or attention shifts.
 
-## Provisional Recommendation Outcomes
+## Recommendation Outcomes
 
-The reasoning model should be capable of supporting more than one responsible recommendation. The current provisional outcomes are:
+The reasoning model supports four responsible recommendation outcomes:
 
 - Proceed with an AI-supported workflow.
 - Prepare first, then reconsider AI.
 - Pursue a non-AI intervention.
-- Do not pursue this proposed intervention.
+- Do not pursue the proposed intervention.
 
 The final outcome refers to the proposed intervention, not necessarily the underlying organizational objective or problem.
 
@@ -113,20 +113,20 @@ When multiple workflows or interventions are viable, prioritization should consi
 - Learning value.
 - Reusability.
 
-These considerations are qualitative during Phase 0. They should not be converted into scores, weights, rankings, rubrics, maturity stages, or assessment questions without explicit approval and validation.
+These considerations remain qualitative in Version 0.1. They are not converted into scores, weights, rankings, rubrics, maturity stages, or assessment questions.
 
 ## Delivery Model
 
-DSL is a consulting business, not primarily a SaaS company. The methodology may be delivered through:
+DSL is a consulting business. The methodology may be delivered through:
 
 - Consulting engagements.
 - Workshops.
 - Training.
-- Guided software.
+- A hosted application.
 - An AI-assisted interface.
-- Other future formats.
+- Other formats.
 
-A future front end should make the methodology persistent by recording decisions, generating working artifacts, supporting implementation, and preserving institutional memory. Delivery formats should express the reasoning model consistently. Proposed changes to the model should be documented and supported by evidence from interviews, prototype testing, or consulting use.
+The hosted application should make the methodology persistent by recording decisions, generating working artifacts, supporting implementation, and preserving institutional memory. Delivery formats should express the reasoning model consistently. Proposed changes to the model should be documented and supported by evidence from interviews, prototype testing, hosted application use, or consulting use.
 
 ## Provisional Assumptions
 
@@ -134,18 +134,19 @@ The following assumptions should remain explicit and open to revision:
 
 - The eleven domains are the right minimum reasoning structure.
 - Different entry points can share a common reasoning model.
-- The model can support both consulting delivery and a future guided front end.
-- Prioritization can remain qualitative during Phase 0.
-- A future product can preserve institutional memory better than static documents alone.
+- The model can support both consulting delivery and a hosted application.
+- Prioritization can remain qualitative in Version 0.1.
+- The hosted application can preserve institutional memory better than static documents alone.
 - The same reasoning model can support recommendations to use AI, prepare first, use non-AI interventions, or stop a proposed intervention.
 
 ## Validation Needs
 
-The decision model should be tested before it is treated as durable. Validation should include:
+The model has been exercised through a complete synthetic dry run using the Decision Conversation protocol, facilitator worksheet, decision brief template, and synthetic example materials. This supports internal coherence of the v0.1 methodology, but it does not prove field validity.
 
-- Beta-user interviews.
-- Prototype testing with synthetic data.
-- Consulting use.
+Next validation work should include:
+
+- Testing through a runnable hosted prototype.
+- Use with nonprofit and association leaders.
 - Observation of where users enter the process.
 - Testing whether the eleven domains are complete, understandable, and addressed in an order that fits different users, organizations, and engagements.
 - Testing whether recommendation outcomes feel credible and useful.

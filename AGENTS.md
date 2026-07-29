@@ -1,6 +1,6 @@
 # Agent Guidance
 
-This repository is the canonical development source for the Nonprofit AI Capability Framework. Work here should protect the framework's accuracy, scope, and usefulness while the project is still early-stage.
+This repository is the canonical development source for the Nonprofit AI Capability Framework. Work here should protect the framework's accuracy, scope, and usefulness while Framework v0.1 is used, tested, and implemented.
 
 ## Guiding Principles
 
@@ -8,19 +8,21 @@ This repository is the canonical development source for the Nonprofit AI Capabil
 - Preserve confirmed product decisions unless the user explicitly changes them.
 - Mark uncertainty clearly as a working hypothesis or open question.
 - Keep documentation small, navigable, and source-of-truth oriented.
-- Avoid turning early product thinking into unvalidated claims.
+- Avoid turning product thinking into unvalidated claims.
 
-## Current Phase
+## Current Product Direction
 
-The project is in Phase 0: product foundation, repository design, and early validation. The goal is to clarify intent, scope, assumptions, framework logic, and research needs. Bounded prototypes using synthetic data may be created with explicit approval to test comprehension, usability, and commercial interest. Do not treat prototypes as validated products or begin production development during this phase.
+Framework v0.1 is the stable methodological baseline for the open repository. It includes the product charter, eleven-domain decision model, Decision Conversation protocol, facilitator worksheet, decision brief template, beta test plan, and synthetic examples.
+
+The next implementation layer is a separate runnable hosted application that expresses the same methodology through a guided user experience and AI-assisted delivery. Methodology changes require deliberate review. UX, implementation, testing, and application code may iterate more rapidly when they preserve the approved reasoning model and do not imply validation that has not happened.
 
 ## Do Not Add Without Explicit Approval
 
-- Production application code, architecture, authentication, integrations, infrastructure, or live-data handling.
-- Prototype UI specifications, wireframes, screens, dashboards, or onboarding flows. When approved, use synthetic data and mark the work as exploratory and unvalidated.
-- Maturity stages, scoring systems, weighted rubrics, or organization-wide grades.
-- Assessment questions or diagnostic instruments.
-- Vendor rankings, tool recommendations, or implementation playbooks.
+- Unsupported claims about field validation, commercial validation, client deployment, or implementation results.
+- Numerical maturity scoring, weighted maturity rubrics, or organization-wide grades.
+- Vendor rankings, procurement recommendations, or generic AI tool rankings.
+- Live sensitive organizational data, participant-identifiable beta materials, recordings, transcripts, or completed client briefs.
+- High-consequence workflows such as eligibility, employment, health or safety screening, legal advice, or high-consequence profiling.
 - Architecture Decision Records under `docs/decisions/`.
 
 ## Documentation Norms
@@ -38,4 +40,4 @@ Do not duplicate large sections across files. The README should orient readers, 
 
 ## Expected Workflow
 
-Before changing the repository, inspect the existing documentation. Keep changes scoped to the requested phase. When product assumptions change, update the product charter rather than scattering durable decisions across planning notes.
+Before changing the repository, inspect the existing documentation. Keep changes scoped to the requested work. When product assumptions change, update the product charter rather than scattering durable decisions across planning notes.

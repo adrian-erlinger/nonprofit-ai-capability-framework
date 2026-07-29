@@ -2,7 +2,7 @@
 
 ## Status
 
-This is a Phase 0 facilitated beta protocol.
+This is the facilitated Decision Conversation protocol for Framework v0.1.
 
 The current design is a working hypothesis. It will be revised based on observed beta-user behavior and feedback.
 
