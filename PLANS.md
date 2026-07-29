@@ -2,41 +2,30 @@
 
 This file is a forward-looking planning index for the Nonprofit AI Capability Framework. It is not a permanent decision log.
 
-Durable product decisions belong in [docs/product-charter.md](docs/product-charter.md). Architecture Decision Records may later be introduced under `docs/decisions/` when durable decisions require them. They are not part of the initial repository foundation.
+Durable product decisions belong in [docs/product-charter.md](docs/product-charter.md). Architecture Decision Records may later be introduced under `docs/decisions/` when durable decisions require them.
 
-## Current Phase
+## Current Priorities
 
-Phase 0 focuses on product foundation, repository design, framework logic, and early validation through interviews and bounded prototype testing.
+1. Maintain Framework v0.1 as the stable methodological baseline.
+2. Build a runnable hosted Decision Conversation prototype.
+3. Translate the six conversational phases and eleven reasoning domains into a guided UX.
+4. Generate a structured Decision Conversation Brief.
+5. Use synthetic data for initial development and testing.
+6. Deploy the prototype through a separate application repository.
+7. Test it with nonprofit and association leaders.
+8. Record evidence and revise the methodology deliberately after observing use.
 
-The initial repository foundation and working decision model are now in place. The next Phase 0 milestone is to define and test the first beta-user experience.
+## Deferred From The First Application Release
 
-The first repository milestone established a small documentation-only foundation:
-
-- `README.md`
-- `AGENTS.md`
-- `PLANS.md`
-- `docs/product-charter.md`
-
-## Near-Term Work
-
-- Define the first beta-user experience for turning an organizational concern into a prioritized, bounded recommendation about what to do next.
-- Conduct user interviews with nonprofit and association leaders, operators, and practitioners.
-- Test whether the framework's one-team, one-workflow focus matches real adoption needs.
-- Explore whether the eight workflow categories are useful as an organizing structure.
-- Develop a bounded prototype using synthetic data to test workflow selection, adoption planning, usability, comprehension, and initial commercial interest.
-- Test expectations for self-service, guided, facilitated, and specialist-supported use.
-
-## Deferred Until Validation
-
-- Maturity stages or progression labels.
-- Quantitative scoring, weighted rubrics, or organization-wide grades.
-- Assessment questions or diagnostic instruments.
-- Production application architecture, authentication, live organizational data, integrations, security controls, and production infrastructure.
-- Pricing, packaging, service tiers, or commercial conversion paths.
-- Detailed facilitation curriculum or training modules.
-- Vendor or tool selection guidance.
-- Final evidence thresholds by risk or consequence level.
+- Accounts.
+- Dashboards.
+- Payments.
+- Production integrations.
+- Organization-wide maturity scoring.
+- Vendor recommendations.
+- High-consequence workflows.
+- Live sensitive organizational data.
 
 ## Planning Notes
 
-Near-term planning should distinguish confirmed decisions from working hypotheses and open questions. If a plan begins to preserve a durable decision, move that decision into the product charter instead of keeping it here.
+Near-term planning should distinguish confirmed decisions from working hypotheses, research findings, and open questions. If a plan begins to preserve a durable decision, move that decision into the product charter instead of keeping it here.

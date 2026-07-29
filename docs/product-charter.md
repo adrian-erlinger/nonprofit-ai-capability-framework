@@ -1,16 +1,16 @@
 # Product Charter
 
-Status: Phase 0 product foundation. This charter records confirmed decisions, working hypotheses, open questions, and deferred work for the Nonprofit AI Capability Framework.
+Status: Framework v0.1. This charter records confirmed decisions, working hypotheses, open questions, and revision boundaries for the Nonprofit AI Capability Framework.
 
 ## Why This Framework Exists
 
 Nonprofits and associations are experimenting with AI, but experimentation often remains individual, informal, and tool-driven. The strategic gap is between scattered AI use and sustained organizational practice: teams need ways to connect AI adoption to mission-relevant workflows, management ownership, governance, evidence, equity, training, and institutional memory.
 
-This framework exists to help organizations make that shift deliberately. It starts with real work, not vendor selection. It treats adoption as an organizational capability rather than a collection of isolated prompts, tools, or pilots.
+This framework helps organizations make that shift deliberately. It starts with real work and organizational outcomes rather than vendor selection. It treats adoption as an organizational capability rather than a collection of isolated prompts, tools, or pilots.
 
 ## Product Intent
 
-The framework helps nonprofits and member-based associations move AI from individual experimentation into sustained organizational practice.
+The framework helps nonprofits and member-based associations examine one organizational concern and one workflow, compare possible interventions, and define a responsible next move.
 
 It is intended to support one defined team and one defined workflow at a time, so adoption work can be concrete, owned, and testable.
 
@@ -24,11 +24,13 @@ Working hypothesis: these organizations share enough adoption patterns to benefi
 
 ## Current Evidence Status
 
-Confirmed decision: the project is early-stage and its product and commercial assumptions are not yet validated.
+Confirmed decision: Framework v0.1 includes a product charter, eleven-domain decision model, facilitated Decision Conversation protocol, facilitator worksheet, decision brief template, beta test plan, and complete synthetic end-to-end scenario.
 
 Research finding: the founding research synthesis supports the general problem thesis that nonprofit AI use is advancing faster than organizational strategy, governance, management systems, training, and implementation capacity. The underlying sources and limitations still need to be documented in the repository.
 
-Open question: which framework, product, and commercial hypotheses will hold after user interviews, prototype testing, and early implementation work?
+Research finding: the methodology has been exercised through a complete synthetic dry run covering an association member-knowledge-access scenario. This supports internal coherence of the v0.1 materials, but it does not establish field validation or commercial validation.
+
+Open question: which framework, product, and commercial hypotheses will hold after testing with nonprofit and association leaders through facilitated sessions and the hosted application prototype?
 
 ## Confirmed Decisions
 
@@ -40,12 +42,14 @@ Open question: which framework, product, and commercial hypotheses will hold aft
 - The eight workflow categories remain part of the broader framework.
 - Ninety days is a working timebox hypothesis, not a guarantee.
 - Evidence requirements should be proportionate to consequence and risk.
-- The public repository supports a potential future commercial product but is not itself the final product.
+- The public repository is the canonical methodology, governance, templates, and reference-example layer for Framework v0.1.
+- A separate hosted application will implement the open methodology through a guided user interface and AI-assisted delivery layer.
+- The four AI-suitability conclusions are: Proceed with an AI-supported workflow; Prepare first, then reconsider AI; Pursue a non-AI intervention; Do not pursue the proposed intervention.
 
 ## Product Hypotheses
 
-- A public, canonical repository can build trust and serve as proof of work for a future commercial product.
-- A future paid DSL product may create value through a polished front end, guided workflow, and optional facilitation, training, or implementation services.
+- A public, canonical repository can build trust and serve as proof of work for the methodology.
+- A hosted application can make the methodology easier to use by guiding the conversation, recording decisions, generating artifacts, supporting implementation, and preserving institutional memory.
 - Self-service, guided, facilitated, and specialist-supported use modes can share one underlying framework.
 - The broader dot org market may contain enough shared needs to support reusable framework assets.
 - A polished, guided prototype will produce clearer user feedback, stronger comprehension, and more useful buying signals than static repository documents alone.
@@ -63,23 +67,19 @@ Open question: which framework, product, and commercial hypotheses will hold aft
 - How should the common framework adapt to the different workflows, stakeholders, revenue models, and accountability structures of direct-service nonprofits, associations, and foundations without fragmenting into separate products?
 - Are the eight workflow categories the right organizing structure for users?
 - How should evidence requirements vary across low-, medium-, and high-consequence workflows?
-- What should remain in the public framework, and what should belong in a future commercial product or service offering?
+- What should remain in the public methodology, and what should belong in hosted application delivery or services?
 - How much guidance is needed for each use mode: self-service, guided, facilitated, and specialist-supported?
 
-## Deferred Content
+## Revision Boundaries
 
-The following should wait for interviews, prototype testing, or explicit approval:
+The following should change only through deliberate review:
 
-A bounded prototype using synthetic data may be developed during Phase 0 to test comprehension, workflow logic, usability, and commercial interest. It should be treated as a learning instrument, not a validated product.
-
-- Maturity stages or progression labels.
-- Scoring systems, weighted rubrics, or organization-wide grades.
-- Assessment questions or diagnostic instruments.
-- Production application architecture, authentication, live organizational data, integrations, security controls, and production infrastructure.
-- Vendor recommendations or tool rankings.
-- Pricing, packaging, and service tiers.
-- Detailed facilitation curriculum or training modules.
-- Final evidence thresholds by workflow risk or consequence level.
+- The eleven-domain reasoning model.
+- The four AI-suitability conclusions.
+- The distinction between conversation model, reasoning model, and delivery model.
+- The one-concern, one-workflow orientation.
+- The prohibition on organization-wide maturity scoring as a primary output.
+- Evidence expectations for higher-consequence workflows.
 
 ## Statement Classification Norm
 
